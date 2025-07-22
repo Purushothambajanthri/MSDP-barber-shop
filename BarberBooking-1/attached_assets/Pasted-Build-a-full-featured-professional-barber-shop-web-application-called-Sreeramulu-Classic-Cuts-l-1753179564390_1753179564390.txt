@@ -1,0 +1,86 @@
+Build a full-featured, professional barber shop web application called *"Sreeramulu Classic Cuts"* located in *Kristipadu village, Anantapur district, Andhra Pradesh, India (Pin: 515455)*. This app should be fast, mobile-responsive, beautiful, and easy to use for all types of users.
+
+🧔‍♂👦 Barber Team (Add barber cards with photo placeholders):
+1. *Bajanthri Sreeramulu* – Age 51, 45+ years experience  
+   - Known for mastery in all traditional and modern hair styles.  
+   - Friendly, humble, and highly respected in the community.  
+   - Contact: 9573761730
+
+2. *Bajanthri Purushotham* – Age 22, 12+ years experience  
+   - Skilled in trending youth styles, fades, beard shaping, and kids cuts.  
+   - Energetic, updated with modern techniques, and customer-friendly.  
+   - Contact: 9381625471
+
+🪑 Barber Shop Design UI:
+- Show *2 classic barber chairs* with high-quality mirror, tables, and tools in the design.
+- Use real-looking *chair images* (use placeholder images for now).
+- Home page should include:
+  - Hero section with “Book Your Seat Now”
+  - Barber introduction with experience badges
+  - Service list with prices
+  - Location map
+  - Contact & login options
+
+💸 Services & Pricing (Display as a clean price list):
+- Beard Cut/Trim – ₹40  
+- Hair Cut (with trimmer) – ₹60  
+- Hair Cut (without trimmer) – ₹70  
+- Hair Coloring – ₹50  
+- Beard + Hair Cut + Color – ₹120  
+- Kids Hair Cut – ₹50  
+- Baby Hair Cut – ₹60  
+- Head Wash – ₹40  
+- Head & Body Massage – ₹100  
+- Head Massage Only – ₹40  
+- Face Wash – ₹50
+
+📆 Booking Flow (Animated multi-step booking form):
+1. User clicks *"Book a Seat"* on homepage → open a new booking page
+2. Steps:
+   - Step 1: Choose Barber (Sreeramulu or Purushotham) with their photo and bio
+   - Step 2: Choose Chair (show images of Chair 1 & Chair 2)
+   - Step 3: Select Date & Time (use calendar & time picker)
+   - Step 4: Enter Phone Number for record
+   - Step 5: Choose Payment Type:
+     - 💵 *Cash on Service*: Show message → “Thank you for booking at Sreeramulu Classic Cuts”
+     - 💳 *Online Payment*:
+       - Show UPI Name: *BAJANTHRI MALLESWARI*
+       - UPI Number: *9573761730*
+       - Show QR Code (use placeholder QR)
+       - Seat booking is *confirmed only after payment is done*
+
+🔐 Authentication:
+- Require users to *Login with Email* before accessing booking page
+- Provide *Sign Up / Sign In* buttons at top right corner
+- Save user booking history linked with their account
+
+🧠 Backend (for real-time data):
+- Use *Supabase* for backend:
+  - Store user login, bookings, barber schedules, and payment status
+  - Enable real-time updates for slot availability
+  - Send confirmation message to user's phone (if possible)
+
+📍 Shop Location:
+Display full address with *live Google Map* integration:  
+*3-21A, Raghavendra Colony Road, Near Elementary School, Kristipadu Village, Peddavaduguru Mandal, Anantapur District, Andhra Pradesh, India – 515455*
+
+📱 Design & Styling:
+- Use *21st.dev* style as reference: smooth transitions, soft UI, rounded buttons
+- Add *minimal animations* for page transitions and buttons (no heavy or flashy animations)
+- Fully mobile-friendly with clean layout and easy navigation
+- Show high-quality *images* of barber shop, chairs, and services (use placeholders now)
+
+🧩 Extra Features:
+- “Contact Us” section with WhatsApp link and call button
+- Barber Working Hours page
+- Admin login for owner to check bookings
+- Add testimonials section with reviews
+- Add "Our Tools & Hygiene" section with icons
+
+🛠 AI Tools Integration:
+- Use Rocket.new AI as the base builder
+- Integrate with *Supabase* backend for real-time
+- Use 21st.dev for UI inspiration
+- Optional: Add Razorpay or Paytm API in future for automatic payment status
+
+Make this a professional, fast, and fully working web application that matches modern standards, with clean code and all components reusable. It should be production-ready and user-friendly for rural and urban customers alike.
